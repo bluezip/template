@@ -4,8 +4,8 @@
   "dependencies"        : {
     "requirejs"         : "jrburke/requirejs",
     "jquery"            : "jquery/jquery",
-    "backbone-amd"      : "jashkenas/backbone",
-    "underscore-amd"    : "jashkenas/underscore",
+    "backbone"          : "jashkenas/backbone",
+    "underscore"        : "jashkenas/underscore",
     "mockjax"           : "appendto/jquery-mockjax",
     "bootstrap"         : "twbs/bootstrap-sass",
     "fontawesome"       : "FortAwesome/Font-Awesome",
