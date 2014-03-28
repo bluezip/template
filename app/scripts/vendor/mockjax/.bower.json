@@ -1,11 +1,26 @@
 {
-  "name": "mockjax",
-  "_cacheHeaders": {
-    "Content-Length": "18880",
-    "Content-Type": "text/plain; charset=us-ascii"
+  "name": "jquery-mockjax",
+  "version": "1.5.3",
+  "main": [
+    "jquery.mockjax.js"
+  ],
+  "ignore": [
+    ".editorconfig",
+    ".gitignore",
+    ".jshintrc",
+    "*.md",
+    "*.json",
+    "lib",
+    "test"
+  ],
+  "homepage": "https://github.com/appendto/jquery-mockjax",
+  "_release": "1.5.3",
+  "_resolution": {
+    "type": "version",
+    "tag": "v1.5.3",
+    "commit": "0850526a37265d2311f06fc2f9138369e3df70ac"
   },
-  "main": "index.js",
-  "_source": "https://raw.githubusercontent.com/appendto/jquery-mockjax/master/jquery.mockjax.js",
+  "_source": "git://github.com/appendto/jquery-mockjax.git",
   "_target": "*",
-  "_originalSource": "https://raw.githubusercontent.com/appendto/jquery-mockjax/master/jquery.mockjax.js"
+  "_originalSource": "appendto/jquery-mockjax"
 }
