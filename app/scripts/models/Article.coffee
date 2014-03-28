@@ -1,6 +1,7 @@
-define ['underscore', 'backbone', 'backbone.offline'],(_ ,Backbone,Offline)->
+define ['underscore', 'backbone'],(_ ,Backbone)->
   class App.Models.Article extends Backbone.Model
     default : {
+      _id : ''
       title : ''
     }
     url : '/api/article'
@@ -9,7 +10,6 @@ define ['underscore', 'backbone', 'backbone.offline'],(_ ,Backbone,Offline)->
       @on('change', ->
         @updated_at = new Date();
       ,@);
-      @storage = new Offline.Storage('article', @);
 
 
 
