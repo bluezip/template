@@ -1,12 +1,14 @@
 {
-  "name": "backbone-offline-test",
-  "version": "0.1.0",
-  "dependencies": {
-    "requirejs": null,
-    "jquery": null,
-    "backbone-amd": null,
-    "backbone.offline": "https://raw.github.com/Ask11/backbone.offline/master/js/backbone_offline.js",
-    "underscore-amd": null,
-    "mockjax" : "https://raw.githubusercontent.com/appendto/jquery-mockjax/master/jquery.mockjax.js"
+  "name"                : "tanai-test",
+  "version"             : "0.1.0",
+  "dependencies"        : {
+    "requirejs"         : "jrburke/requirejs",
+    "jquery"            : "jquery/jquery",
+    "backbone-amd"      : "jashkenas/backbone",
+    "underscore-amd"    : "jashkenas/underscore",
+    "mockjax"           : "appendto/jquery-mockjax",
+    "bootstrap"         : "twbs/bootstrap-sass",
+    "fontawesome"       : "FortAwesome/Font-Awesome",
+    "animated"          : "daneden/animate.css"
   }
 }
