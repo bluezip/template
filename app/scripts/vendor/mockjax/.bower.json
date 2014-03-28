@@ -1,0 +1,11 @@
+{
+  "name": "mockjax",
+  "_cacheHeaders": {
+    "Content-Length": "18880",
+    "Content-Type": "text/plain; charset=us-ascii"
+  },
+  "main": "index.js",
+  "_source": "https://raw.githubusercontent.com/appendto/jquery-mockjax/master/jquery.mockjax.js",
+  "_target": "*",
+  "_originalSource": "https://raw.githubusercontent.com/appendto/jquery-mockjax/master/jquery.mockjax.js"
+}

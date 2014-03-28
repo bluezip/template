@@ -1,0 +1,14 @@
+{
+  "name": "backbone.offline",
+  "_cacheHeaders": {
+    "ETag": "\"e359c30f62a9ea92bc75111883ecf288\"",
+    "Content-Length": "15668",
+    "Content-Type": "text/plain; charset=utf-8",
+    "Content-Disposition": "inline"
+  },
+  "_release": "e-tag:e359c30f6",
+  "main": "index.js",
+  "_source": "https://raw.github.com/Ask11/backbone.offline/master/js/backbone_offline.js",
+  "_target": "*",
+  "_originalSource": "https://raw.github.com/Ask11/backbone.offline/master/js/backbone_offline.js"
+}
