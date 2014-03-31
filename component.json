@@ -1,14 +1,15 @@
 {
-  "name"                : "tanai-test",
-  "version"             : "0.1.0",
-  "dependencies"        : {
-    "requirejs"         : "jrburke/requirejs",
-    "jquery"            : "jquery/jquery",
-    "backbone"          : "jashkenas/backbone",
-    "underscore"        : "jashkenas/underscore",
-    "mockjax"           : "appendto/jquery-mockjax",
-    "bootstrap"         : "twbs/bootstrap-sass",
-    "fontawesome"       : "FortAwesome/Font-Awesome",
-    "animated"          : "daneden/animate.css"
-  }
+    "name"                : "tanai-test",
+    "version"             : "0.1.0",
+    "dependencies"        : {
+        "requirejs"         : "jrburke/requirejs",
+        "jquery"            : "jquery/jquery",
+        "backbone"          : "jashkenas/backbone",
+        "underscore"        : "jashkenas/underscore",
+        "mockjax"           : "appendto/jquery-mockjax",
+        "bootstrap"         : "twbs/bootstrap-sass",
+        "fontawesome"       : "FortAwesome/Font-Awesome",
+        "animated"          : "daneden/animate.css",
+        "greensock"         : "greensock/GreenSock-JS"
+    }
 }
