@@ -1,5 +1,5 @@
 require(['config'],->
-  require(['models/Article','collections/Article','views/Article','mocks/Article','underscore'],(Model,Collection,View,Mocks,_) ->
+  require(['models/Article','collections/Article','views/Article','mocks/Article','underscore','TweenMax','TimelineMax','jquery'],(Model,Collection,View,Mocks,_,TweenMax,TimelineMax,$) ->
 
     mock  = new Mocks();
     mock.article();
@@ -13,6 +13,8 @@ require(['config'],->
     view      = new View({el : '#xxx'});
     articles.fetch({success:(d) ->
       view.list(d);
+      t = new TimelineMax();
+      t.add(TweenMax.to($('.logo'),.5,{marginLeft:"50px", ease: Bounce.easeParams }))
     });
   )
 );
