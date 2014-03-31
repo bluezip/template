@@ -4,7 +4,6 @@ require(['config'],->
     mock  = new Mocks();
     mock.article();
 
-
     article   = new Model();
     article.save({title: 'title 14'},{success : (d)->
       console.log(d);
